@@ -33,13 +33,13 @@ function makePoly(pattern) {
 makePoly( Trianglify(options) );
 
 // RESIZE TIMEOUT
-$(window).resize(function(){
-  clearTimeout(this.id);
-  this.id = setTimeout(doneResizing, 200);
-});
+// $(window).resize(function(){
+//   clearTimeout(this.id);
+//   this.id = setTimeout(doneResizing, 200);
+// });
 
-// GENERATE PATTERN WHEN RESIZING FINISHED
-function doneResizing(){
-  var pattern = Trianglify(options);
-  makePoly(pattern);
-}
+// // GENERATE PATTERN WHEN RESIZING FINISHED
+// function doneResizing(){
+//   var pattern = Trianglify(options);
+//   makePoly(pattern);
+// }

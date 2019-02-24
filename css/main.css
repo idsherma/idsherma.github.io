@@ -319,7 +319,7 @@ h2 {
 }
 .contact-button:after {
     content: "Available for work";
-    font-size: 0.45em;
+    font-size: 0.6em;
     top: -7px;
     left: 0px;
     color: white;
@@ -410,7 +410,7 @@ h2 {
     .info__elevator-text {
         max-width: 550px;
         padding: 0 40px;
-        font-size: 40px;
+        font-size: 38px;
     }
 }
 .info__elevator-link {
